@@ -17,5 +17,8 @@ document.querySelector("#saveEntry").addEventListener("click", event => {
             <div>${vendor}</div>
         </section>
     `
+    document.querySelector("#name").value = ''
+    document.querySelector("#location").value = ''
+    document.querySelector("#name").focus()
 
 })
